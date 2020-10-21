@@ -3,8 +3,72 @@
     margin:0;
     padding:0;
 }
-
+/* vh viewport height px,em,rem,vh,vw */
 body{
     background: #9013fe;
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+
+.container{
+background:white;
+display: flex;
+flex-direction: column;
+border-radius: 20px;
+width: 700px;
+padding:50px;
+margin-top: 150px;
+}
+.container > .row{
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.row{
+    display: flex;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    margin: 20px 0;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.profile-icon{
+    border-radius: 50%;
+    border: 2px solid bisque;
+}
+
+.score{
+    font-size: xx-large;
+}
+
+.score > span{
+    margin: 0 5px;
+}
+
+.round-runs{
+    font-size: xx-large;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+#strike-button{
+    border:none;
+    border-radius: 25px;
+    font-size: large;
+    background: linear-gradient(135deg,#3324c0f5,#f0cb35);
+    width: 300px;
     color:white;
+    padding: 10px;
+    margin-top:50px;
+    margin-bottom:-50px;
+    outline:none;
 }
