@@ -84,3 +84,6 @@ margin-top: 150px;
     color:white;
     font-weight: 700;
 }
+#strike-button:hover {
+	box-shadow: 0 0 10px 0 black;
+}
