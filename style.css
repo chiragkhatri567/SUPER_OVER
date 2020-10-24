@@ -72,3 +72,15 @@ margin-top: 150px;
     margin-bottom:-50px;
     outline:none;
 }
+
+#result{
+    margin-top: 50px;
+    margin-bottom:-50px;
+    background:linear-gradient(135deg,#3324c0f5,#f0cb35);
+    text-transform: uppercase;
+    border-radius: 25px;
+    font-size: x-large;
+    width: 700px;
+    color:white;
+    font-weight: 700;
+}
