@@ -73,16 +73,16 @@ margin-top: 150px;
     outline:none;
 }
 
-#result{
-    margin-top: 50px;
-    margin-bottom:-50px;
-    background:linear-gradient(135deg,#3324c0f5,#f0cb35);
-    text-transform: uppercase;
-    border-radius: 25px;
-    font-size: x-large;
-    width: 700px;
-    color:white;
-    font-weight: 700;
+#result {
+	margin-top: 50px;
+	background: linear-gradient(90deg, #f79d00, #64f38c);
+	background-clip: text;
+	text-transform: uppercase;
+	font-size: xx-large;
+	font-weight: bold;
+	color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 #strike-button:hover {
 	box-shadow: 0 0 10px 0 black;
