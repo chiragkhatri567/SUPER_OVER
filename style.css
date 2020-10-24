@@ -73,7 +73,7 @@ margin-top: 150px;
     outline:none;
 }
 
-#result {
+#result{
 	margin-top: 50px;
 	background: linear-gradient(90deg, #f79d00, #64f38c);
 	background-clip: text;
